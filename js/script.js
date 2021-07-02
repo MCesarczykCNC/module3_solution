@@ -65,7 +65,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>fullstack-course4/styles.css at master · jhu-ep-coursera/fullstack-course4</title>
+  <title>fullstack-course4/script.js at master · jhu-ep-coursera/fullstack-course4</title>
     <meta name="description" content="Example code for HTML, CSS, and Javascript for Web Developers Coursera Course - jhu-ep-coursera/fullstack-course4">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -79,11 +79,11 @@
     
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/84062214/ws?session=eyJ2IjoiVjMiLCJ1Ijo4NDA2MjIxNCwicyI6NzExNjc4OTkxLCJjIjo4MjI1ODY2NjcsInQiOjE2MjUxOTg4NTR9--e5b6bde9513ed2a600e4f1c81cc8d48dd0686791ebbfa23dc5016d1fdcef39c2" data-refresh-url="/_alive" data-session-id="aef946f89c03c70e8d62f04df2eb2f97cdb265156ece0a74116ab2e5c708c42f">
+    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/84062214/ws?session=eyJ2IjoiVjMiLCJ1Ijo4NDA2MjIxNCwicyI6NzExNjc4OTkxLCJjIjoxNDczOTU1MjU1LCJ0IjoxNjI1MTk4OTU4fQ==--969cc11421d3941f4c865b0e50bb11a63c4c0821b838c972f1077b1234a09ed5" data-refresh-url="/_alive" data-session-id="aef946f89c03c70e8d62f04df2eb2f97cdb265156ece0a74116ab2e5c708c42f">
     <link rel="shared-web-socket-src" href="/socket-worker-3f088aa2.js">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="E1B8:33D0:9D1550:F61EB6:60DE9105" data-pjax-transient="true" /><meta name="html-safe-nonce" content="559d9bef8eb3dcd97e992c424ac8176f361ef338ab6ce82380f393a781cb34ff" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9qaHUtZXAtY291cnNlcmEvZnVsbHN0YWNrLWNvdXJzZTQvdHJlZS9tYXN0ZXIvZXhhbXBsZXMvTGVjdHVyZTI1L2NzcyIsInJlcXVlc3RfaWQiOiJFMUI4OjMzRDA6OUQxNTUwOkY2MUVCNjo2MERFOTEwNSIsInZpc2l0b3JfaWQiOiIzMzQ3Nzc3MzE2MzYwNjcwNTIzIiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="d8d9b2620955804b9a1b2bedce69ff52605857393bb60003e13499ba9c4fe622" data-pjax-transient="true" />
+  <meta name="request-id" content="E1B8:33D0:9D48EB:F66CFB:60DE916E" data-pjax-transient="true" /><meta name="html-safe-nonce" content="559d9bef8eb3dcd97e992c424ac8176f361ef338ab6ce82380f393a781cb34ff" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9qaHUtZXAtY291cnNlcmEvZnVsbHN0YWNrLWNvdXJzZTQvdHJlZS9tYXN0ZXIvZXhhbXBsZXMvTGVjdHVyZTI1L2pzIiwicmVxdWVzdF9pZCI6IkUxQjg6MzNEMDo5RDQ4RUI6RjY2Q0ZCOjYwREU5MTZFIiwidmlzaXRvcl9pZCI6IjMzNDc3NzczMTYzNjA2NzA1MjMiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="5f8c15d078ad2d6dcd427562b366ad7cf3b611df5340a0ed08aa067d92b5db96" data-pjax-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:51732606" data-pjax-transient>
 
@@ -122,7 +122,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="ZjZjYjU3YjkyZmIzY2RjYjJhOWQyYTc3YjE4ODY5Nzc1OWExNjQ2YmFlNTZlZjQzMzMxZDNhZWU4Njk0Nzc5M3x7InJlbW90ZV9hZGRyZXNzIjoiMTQ3LjE2MS4xNjUuNCIsInJlcXVlc3RfaWQiOiJFMUI4OjMzRDA6OUQxNTUwOkY2MUVCNjo2MERFOTEwNSIsInRpbWVzdGFtcCI6MTYyNTE5ODg1NCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+      <meta name="js-proxy-site-detection-payload" content="ZmY2NjFmNzAxMTZkYWIzMjI4MmYxODBlMTQ2MmVhMjdkZTlkMmNjYjEzYjc3OTM4MmNkMzk4ODQyNDIwMTg5M3x7InJlbW90ZV9hZGRyZXNzIjoiMTQ3LjE2MS4xNjUuNCIsInJlcXVlc3RfaWQiOiJFMUI4OjMzRDA6OUQ0OEVCOkY2NkNGQjo2MERFOTE2RSIsInRpbWVzdGFtcCI6MTYyNTE5ODk1OCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,GITHUB_TOKEN_PERMISSION">
 
@@ -136,7 +136,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/css/styles.css" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/js/script.js" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -216,7 +216,7 @@
             spellcheck="false"
             autocomplete="off"
           >
-          <input type="hidden" value="V92D1SeyqF6Fto2N89pSaEZKfNcPMAlySyRrMMOWrl+kuOOMTOFFRWzz2els33VEjN8X/Kgsw4QpJMUzvnOqYQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="hKV6SzhkVljAD6d9x77+RM9fydFU6K9rh+lodHS2y4l3wBoSUze7QylK8xlYu9loBcqi+vP0ZZ3l6cZ3CVPPtw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
               <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -395,7 +395,7 @@
     <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:workspaces context:user" data-selected-links="/codespaces /codespaces" href="/codespaces">
       Codespaces
 </a>
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;MCesarczykCNC&quot;,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/css/styles.css&quot;,&quot;user_id&quot;:84062214}}" data-hydro-click-hmac="afdaf5e4767081243fe4b1be59b55ce6708c873ba21872706be502a1d28d31c4" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;MCesarczykCNC&quot;,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/js/script.js&quot;,&quot;user_id&quot;:84062214}}" data-hydro-click-hmac="e0ec6f2bf7b39291b9657218149d5569444efdcc596f5def04545ea0d7be4494" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" href="/settings/profile">
       Settings
@@ -404,7 +404,7 @@
       <img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/84062214?s=40&amp;v=4" width="20" height="20" alt="@MCesarczykCNC" />
       MCesarczykCNC
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="B9E8exb746W0O86sb8Pi20V71rA/04tWJOIrNY873X4HejIfwEP/qBSH4oKhXkDKekIHmuA/KswO6p3ZiSRcVQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="oltPoNIfPWU7PoQ1jhKSP021t881dJhBKsCdN0RZiUmi8EHEBKchaJuCqBtAjzAucoxm5eqYOdsAyCvbQkYIYg==" />
       <button type="submit" class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade d-md-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
         Sign out
@@ -428,7 +428,7 @@
       <notification-indicator
         class="js-socket-channel"
         data-test-selector="notifications-indicator"
-        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6ODQwNjIyMTQiLCJ0IjoxNjI1MTk4ODU0fQ==--13ef20f2d230206af2375dd90ab660fa66c39eb3297f93e51e1d74c81a16d385">
+        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6ODQwNjIyMTQiLCJ0IjoxNjI1MTk4OTU4fQ==--0163028313e84b4f3314a4537433c91d3d621145bec32a162ba6147d3ed29a46">
         <a href="/notifications"
           class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
           
@@ -600,7 +600,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:51732606,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/css/styles.css&quot;,&quot;user_id&quot;:84062214}}" data-hydro-click-hmac="ecf01a37132286e1b20b7ff940966e3c22d72e3a0ee532618c025affe1e5ceaf" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
+      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:51732606,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/js/script.js&quot;,&quot;user_id&quot;:84062214}}" data-hydro-click-hmac="2ab5858bf08b8735208cb33b6ea34bf694d5367578baafd04e20573b0ee0c4a5" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
           <span data-menu-button>
             <span
               hidden
@@ -652,7 +652,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="RDiVVdSxw7HAQQF0eG4MRE/k3yho9FxuAqJVi5X8+xKeiH5zIG9GjpYkWqYZiXq8hZUaXdpRjA4SF5iA7Trr4w==" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="062GqNO/oEBIkgE4o9isQoa2j+sUO3+lc6e7JH1VAfcJHW2OJ2Elfx73WurCP9q6TMdKnqaer8VjEnYvBZMRBg==" />
 
                 <input type="hidden" name="repository_id" value="51732606">
 
@@ -764,7 +764,7 @@
 
         <details-dialog class="notifications-component-dialog " data-target="notifications-list-subscription-form.customDialog" hidden>
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="9pJ+HyGS6g90iZrfs+XpgWHEOJU52QuCHa1kovJU6b0sIpU51UxvMCLswQ3SAp95q7X94It82+INGKmpipL5TA==" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="doCucoGWjnsbIhqkwC8YpDC6i5eCiHbixhsOvrO1gGGsMEVUdUgLRE1HQXahyG5c+stO4jAtpoLWrsO1y3OQkA==" />
 
               <input type="hidden" name="repository_id" value="51732606">
 
@@ -923,9 +923,9 @@
 
   <li>
         <div class="d-block js-toggler-container js-social-container starring-container on">
-    <form class="starred js-social-form" action="/jhu-ep-coursera/fullstack-course4/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="iXaAqa2oOFQSi1lAcXvJrSYPYq784zXBldsTiTMVNCSjmaT2W1ejz6YtRPol/fb7WI511qxOkIT2U+0e+AT9+Q==" />
+    <form class="starred js-social-form" action="/jhu-ep-coursera/fullstack-course4/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Rbws6/OxI9QJvL9VYb6Vm0A7/JvKUVj2XjMWNSvMud9vUwi0BU64T70aou81OKrNPrrr45r8/bM9u+ii4N1wAg==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar jhu-ep-coursera/fullstack-course4" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:51732606,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/css/styles.css&quot;,&quot;user_id&quot;:84062214}}" data-hydro-click-hmac="4bf55f10b7210f9fb83145f5feb927d73709df7c613a68603e88c7e8989d3c85" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-star-fill mr-1">
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar jhu-ep-coursera/fullstack-course4" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:51732606,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/js/script.js&quot;,&quot;user_id&quot;:84062214}}" data-hydro-click-hmac="0d473c8979eda08aaae6b58ff24a6311c3bb24e0f93d3aa57bde1f07829bba9d" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-star-fill mr-1">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path>
 </svg>
         <span data-view-component="true">
@@ -935,9 +935,9 @@
            6.1k
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/jhu-ep-coursera/fullstack-course4/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="g7rs8ENkwSDWuvlQ7n+JrdmX7nxPnZ1/yfR7XzR93+TI/h1daWtCCvPkcqNltSqyzAX9cR94HNQW98Eu+dBiUQ==" />
+    <form class="unstarred js-social-form" action="/jhu-ep-coursera/fullstack-course4/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="+BlFrdbtdeWxwyAMlG+7RP8vYWMj/otrL5Bt9tFPNRezXbQA/OL2z5Sdq/8fpRhb6r1ybnMbCsDwk9eHHOKIog==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star jhu-ep-coursera/fullstack-course4" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:51732606,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/css/styles.css&quot;,&quot;user_id&quot;:84062214}}" data-hydro-click-hmac="351df7d84bd5ba47120d5b3cb94e13bdacac35c853b4d2e24fbfc4f4afe6f28d" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-star mr-1">
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star jhu-ep-coursera/fullstack-course4" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:51732606,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/js/script.js&quot;,&quot;user_id&quot;:84062214}}" data-hydro-click-hmac="0ae6e7d48f47d006fb2437c7ba6a17422d811fbb3176a96862d2bf48156e7e2f" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-star mr-1">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
 </svg>
         <span data-view-component="true">
@@ -951,8 +951,8 @@
   </li>
 
   <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/jhu-ep-coursera/fullstack-course4/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="8JVxPe7Zq1y6gl0pBLwhLUCPAEA7jk1U3Pa3CbWrGA+AI8wQnU1AEIwGpLwLLdI1+WIvYiwsTotuXPaq+Bl3pA==" />
-              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:51732606,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/css/styles.css&quot;,&quot;user_id&quot;:84062214}}" data-hydro-click-hmac="2a4716588211f167cc306da132c931b60a0be142b42ac875a79606fb86faf910" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of jhu-ep-coursera/fullstack-course4 to your account" aria-label="Fork your own copy of jhu-ep-coursera/fullstack-course4 to your account">                <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-repo-forked">
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/jhu-ep-coursera/fullstack-course4/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="QHFgzkRU3mjqicHezaQ05zkGgPDg+tCVfrE3+9itSYMwx93jN8A1JNwNOEvCNcf/gOuv0vdY00rMG3ZYlR8mKA==" />
+              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:51732606,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/js/script.js&quot;,&quot;user_id&quot;:84062214}}" data-hydro-click-hmac="bd589347d6355ea40498d848c218a61ef2c6e3cea5298580605d6bab4c0a303f" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of jhu-ep-coursera/fullstack-course4 to your account" aria-label="Fork your own copy of jhu-ep-coursera/fullstack-course4 to your account">                <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-repo-forked">
     <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
 </svg>
                 Fork
@@ -1105,9 +1105,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/jhu-ep-coursera/fullstack-course4/blob/517da5ab2afe31169b1daf0ed873b4d253b90395/examples/Lecture25/css/styles.css">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/jhu-ep-coursera/fullstack-course4/blob/517da5ab2afe31169b1daf0ed873b4d253b90395/examples/Lecture25/js/script.js">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:d3fb21a2043dffe18cd6fb07932408a78760b1c64403e08617edef8ac9f56df5 -->
+    <!-- blob contrib key: blob_contributors:v22:02d61e47e2d51cf7842ad46af52dcfaf5ec6f588d11649c2ae16f6c1c9db493b -->
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
       
@@ -1191,7 +1191,7 @@
             </div>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/{{ urlEncodedRefName }}/examples/Lecture25/css/styles.css" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/{{ urlEncodedRefName }}/examples/Lecture25/js/script.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -1231,7 +1231,7 @@
             </template>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/{{ urlEncodedRefName }}/examples/Lecture25/css/styles.css" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/{{ urlEncodedRefName }}/examples/Lecture25/js/script.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -1262,7 +1262,7 @@
 </div>
 
       <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/jhu-ep-coursera/fullstack-course4"><span>fullstack-course4</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/jhu-ep-coursera/fullstack-course4/tree/master/examples"><span>examples</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/jhu-ep-coursera/fullstack-course4/tree/master/examples/Lecture25"><span>Lecture25</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/jhu-ep-coursera/fullstack-course4/tree/master/examples/Lecture25/css"><span>css</span></a></span><span class="separator">/</span><strong class="final-path">styles.css</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/jhu-ep-coursera/fullstack-course4"><span>fullstack-course4</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/jhu-ep-coursera/fullstack-course4/tree/master/examples"><span>examples</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/jhu-ep-coursera/fullstack-course4/tree/master/examples/Lecture25"><span>Lecture25</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/jhu-ep-coursera/fullstack-course4/tree/master/examples/Lecture25/js"><span>js</span></a></span><span class="separator">/</span><strong class="final-path">script.js</strong>
       </h2>
       <a href="/jhu-ep-coursera/fullstack-course4/find/master"
             class="js-pjax-capture-input btn mr-2 d-none d-md-block"
@@ -1283,7 +1283,7 @@
 </summary>
   <div data-view-component="true">          <ul class="dropdown-menu dropdown-menu-sw">
             <li class="d-block d-md-none">
-              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:51732606,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/css/styles.css&quot;,&quot;user_id&quot;:84062214}}" data-hydro-click-hmac="3009ecb4f9663eae991072c75646f6e241f557c6e797223b4dec9313c463fa9f" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/jhu-ep-coursera/fullstack-course4/find/master">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:51732606,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture25/js/script.js&quot;,&quot;user_id&quot;:84062214}}" data-hydro-click-hmac="8f6921cff3e47f5521a593e3171a6590dc6a766687ed9d43bd6eddeaea4fad81" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/jhu-ep-coursera/fullstack-course4/find/master">
                 <span class="flex-auto">Go to file</span>
                 <span class="text-small color-text-secondary" aria-hidden="true">T</span>
 </a>            </li>
@@ -1297,12 +1297,12 @@
             </li>
             <li class="dropdown-divider" role="none"></li>
             <li>
-              <clipboard-copy value="examples/Lecture25/css/styles.css" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+              <clipboard-copy value="examples/Lecture25/js/script.js" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
                 Copy path
               </clipboard-copy>
             </li>
             <li>
-              <clipboard-copy value="https://github.com/jhu-ep-coursera/fullstack-course4/blob/517da5ab2afe31169b1daf0ed873b4d253b90395/examples/Lecture25/css/styles.css" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details" >
+              <clipboard-copy value="https://github.com/jhu-ep-coursera/fullstack-course4/blob/517da5ab2afe31169b1daf0ed873b4d253b90395/examples/Lecture25/js/script.js" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details" >
                 <span class="d-flex flex-items-baseline">
                   <span class="flex-auto">Copy permalink</span>
                 </span>
@@ -1316,7 +1316,7 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      <include-fragment src="/jhu-ep-coursera/fullstack-course4/contributors/master/examples/Lecture25/css/styles.css" class="commit-loader">
+      <include-fragment src="/jhu-ep-coursera/fullstack-course4/contributors/master/examples/Lecture25/js/script.js" class="commit-loader">
         <div class="Box-header Box-header--blue d-flex flex-items-center">
           <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
           <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -1359,13 +1359,13 @@
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
 
     <div class="BtnGroup">
-      <a href="/jhu-ep-coursera/fullstack-course4/raw/master/examples/Lecture25/css/styles.css" id="raw-url" role="button" data-view-component="true" class="btn-sm btn BtnGroup-item">
+      <a href="/jhu-ep-coursera/fullstack-course4/raw/master/examples/Lecture25/js/script.js" id="raw-url" role="button" data-view-component="true" class="btn-sm btn BtnGroup-item">
   
   Raw
   
 
 </a>
-        <a href="/jhu-ep-coursera/fullstack-course4/blame/master/examples/Lecture25/css/styles.css" data-hotkey="b" role="button" data-view-component="true" class="js-update-url-with-hash btn-sm btn BtnGroup-item">
+        <a href="/jhu-ep-coursera/fullstack-course4/blame/master/examples/Lecture25/js/script.js" data-hotkey="b" role="button" data-view-component="true" class="js-update-url-with-hash btn-sm btn BtnGroup-item">
   
   Blame
   
@@ -1376,7 +1376,7 @@
     <div>
           <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
              data-platforms="windows,mac"
-             href="x-github-client://openRepo/https://github.com/jhu-ep-coursera/fullstack-course4?branch=master&amp;filepath=examples%2FLecture25%2Fcss%2Fstyles.css"
+             href="x-github-client://openRepo/https://github.com/jhu-ep-coursera/fullstack-course4?branch=master&amp;filepath=examples%2FLecture25%2Fjs%2Fscript.js"
              aria-label="Open this file in GitHub Desktop"
              data-ga-click="Repository, open with desktop">
               <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-desktop">
@@ -1384,7 +1384,7 @@
 </svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/jhu-ep-coursera/fullstack-course4/edit/master/examples/Lecture25/css/styles.css" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="O6x9eDdWzTAOaBVyilK/Y6ijinwQqRImOlfTevFP7Sab1SIL4+bcUKs0zCAWZMZAEW85wV4GdxZ3Yz3KnsvFMA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/jhu-ep-coursera/fullstack-course4/edit/master/examples/Lecture25/js/script.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="VDza+4yuT95ufwKbjC2EEkQ43RWAJt7aVEDyfgMCLM5hOYVXrA73SnXLdrDiB1Z4D9rpqA81bffodk3WbDeMIg==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-pencil">
@@ -1392,7 +1392,7 @@
 </svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/jhu-ep-coursera/fullstack-course4/delete/master/examples/Lecture25/css/styles.css" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="qhCuKYErDWbEm6InKUdhlDDahAH4DavlYGqBfmRidmomZu03z2jZBpSX7dwurPtXtnTlqCZJI+isWYv1KlABGA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/jhu-ep-coursera/fullstack-course4/delete/master/examples/Lecture25/js/script.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="h53Mb4yK3OTe58Pjsl3rE3qGOgiGa8PgcKRBNbkG/lNnKhcRfAbyHpUtm5lHesbJABaKVPJ/7XWfBHk0vxOBZQ==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-trash">
@@ -1414,28 +1414,28 @@
             <li>
                 <a class="dropdown-item tooltipped tooltipped-nw js-remove-unless-platform"
                    data-platforms="windows,mac"
-                   href="x-github-client://openRepo/https://github.com/jhu-ep-coursera/fullstack-course4?branch=master&amp;filepath=examples%2FLecture25%2Fcss%2Fstyles.css"
+                   href="x-github-client://openRepo/https://github.com/jhu-ep-coursera/fullstack-course4?branch=master&amp;filepath=examples%2FLecture25%2Fjs%2Fscript.js"
                    data-ga-click="Repository, open with desktop">
                   Open with Desktop
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/jhu-ep-coursera/fullstack-course4/raw/master/examples/Lecture25/css/styles.css">
+            <a class="dropdown-item" href="/jhu-ep-coursera/fullstack-course4/raw/master/examples/Lecture25/js/script.js">
               View raw
             </a>
           </li>
             <li>
-              <a class="dropdown-item" href="/jhu-ep-coursera/fullstack-course4/blame/master/examples/Lecture25/css/styles.css">
+              <a class="dropdown-item" href="/jhu-ep-coursera/fullstack-course4/blame/master/examples/Lecture25/js/script.js">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/jhu-ep-coursera/fullstack-course4/edit/master/examples/Lecture25/css/styles.css">Edit file</a>
+                <a class="dropdown-item" href="/jhu-ep-coursera/fullstack-course4/edit/master/examples/Lecture25/js/script.js">Edit file</a>
               </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/jhu-ep-coursera/fullstack-course4/delete/master/examples/Lecture25/css/styles.css">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/jhu-ep-coursera/fullstack-course4/delete/master/examples/Lecture25/js/script.js">Delete file</a>
               </li>
         </ul>
       </details>
@@ -1468,7 +1468,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/jhu-ep-coursera/fullstack-course4/blame/517da5ab2afe31169b1daf0ed873b4d253b90395/examples/Lecture25/css/styles.css">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/jhu-ep-coursera/fullstack-course4/blame/517da5ab2afe31169b1daf0ed873b4d253b90395/examples/Lecture25/js/script.js">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/jhu-ep-coursera/fullstack-course4/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
